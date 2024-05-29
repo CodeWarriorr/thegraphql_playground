@@ -1,0 +1,8 @@
+{
+  "blast-mainnet": {
+    "USDB": {
+      "address": "0x4ef0D788470e2FeB6559B93075EC5bE51dbA737d",
+      "startBlock": 264016
+    }
+  }
+}
