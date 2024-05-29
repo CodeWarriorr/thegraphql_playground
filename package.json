@@ -1,0 +1,24 @@
+{
+  "name": "livecoding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task1": "ts-node src/task1.ts",
+    "start": "NODE_OPTIONS=\"--max-old-space-size=8192\" ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphprotocol/client-cli": "^3.0.3",
+    "dotenv": "^16.4.5",
+    "ethereum-multicall": "^2.24.0",
+    "ethers": "^6.12.1",
+    "etherscan-api": "^10.3.0",
+    "log-update": "^6.0.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
